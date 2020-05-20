@@ -1,14 +1,13 @@
-if [ ! -d "./.venv/notebooks "]
+if [ ! -d "./.venv/notebooks " ]
 then
     mkdir -p ./.venv
     python3 -m venv ./.venv/notebooks
+    source ./.venv/notebooks/bin/activate
+    pip install -r requirements.txt
+    pip install --editable .
+else
+    source ./.venv/notebooks/bin/activate
 fi
-
-source ./.venv/notebooks/bin/activate
-
-pip install -r requirements.txt
-
-pip install --editable .
 
 # Jupyter widgets extension
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
