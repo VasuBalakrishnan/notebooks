@@ -65,7 +65,7 @@ jupyterlab-dash==0.1.0a3
 jupyterlab-server==1.1.0
 keyring==21.2.0
 kiwisolver==1.1.0
-lxml==4.5.0
+lxml==4.6.2
 MarkupSafe==1.1.1
 matplotlib==3.2.1
 mistune==0.8.4
