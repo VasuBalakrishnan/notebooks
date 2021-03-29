@@ -105,7 +105,7 @@ pycparser==2.20
 pycryptodome==3.9.7
 PyDispatcher==2.0.5
 pyEX==0.2.1
-Pygments==2.6.1
+Pygments==2.7.4
 PyHamcrest==2.0.2
 pyOpenSSL==19.1.0
 pyparsing==2.4.6
