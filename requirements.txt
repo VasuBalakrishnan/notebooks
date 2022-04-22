@@ -109,7 +109,7 @@ Pygments==2.6.1
 PyHamcrest==2.0.2
 pyOpenSSL==19.1.0
 pyparsing==2.4.6
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyproj==2.6.0
 pyquery==1.4.1
 pyrsistent==0.16.0
